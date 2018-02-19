@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "GoogleImagesSux",
+	"version": "1.0",
+
+	"description": "Changes the link to Google Image Search to a DuckDuckGo image search page link in the Google Search page",
+
+	"icons": {
+		"48": "icons/gis-48.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.google.com/*"],
+			"js": ["gis.js"]
+		}
+	]
+}
