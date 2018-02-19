@@ -1,1 +1,2 @@
-"# GoogleImagesSucks" 
+This extension changes the link on the Google Search results page that leads to the Image results page. It causes said link to instead lead to the DuckDuckGo image results page for the same query. This is because recently Google Images has done away with the popular "View Image" button. DuckDuckGo has not forgone its equivalent, however.
+The extension definitely works in Firefox, and might work in others if you built it for that. [A signed version is included in the repository for direct use in Firefox without any hackery](https://github.com/HailTheBDFL/GoogleImagesSucks/blob/master/googleimagessux-1.0-an%2Bfx.xpi).
